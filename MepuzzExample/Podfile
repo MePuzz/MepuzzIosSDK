@@ -4,7 +4,7 @@
 target 'MepuzzExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Mepuzz',  :path => '../Mepuzz/'
+  pod 'Mepuzz', '~> 1.0'
   # Pods for MepuzzExample
 
   target 'MepuzzExampleUITests' do
