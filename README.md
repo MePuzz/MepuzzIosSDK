@@ -12,7 +12,7 @@ $ gem install cocoapods
 To integrate Mepuzz into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```bash
-pod 'Mepuzz'
+pod 'Mepuzz', '~> 1.0'
 ```
 
 Then, run the following command:
