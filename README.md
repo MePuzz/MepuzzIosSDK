@@ -22,7 +22,6 @@ $ pod install
 ```
 
 ## Usage
-
 **Import**
 
 Import module in Swift language:
@@ -31,7 +30,6 @@ import Mepuzz
 ```
 
 **Initialization**
-
 In application:didFinishLaunchingWithOptions method, initialize Mepuzz SDK as below:
 
 ```swift
@@ -55,3 +53,11 @@ Mepuzz.handleMessage(userInfo)
 // Swift language
 Mepuzz.sendEvent(event: "event name")
 ```
+## Config project
+
+**Create certificate**
+
+[How to create Certificate](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns)
+
+**Enable capabilities**
+<img src="https://koenig-media.raywenderlich.com/uploads/2018/09/Push-Notification-Capability.png" />
