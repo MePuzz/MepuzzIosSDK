@@ -1,0 +1,6 @@
+framework module Pods_MepuzzExample_MepuzzExampleUITests {
+  umbrella header "Pods-MepuzzExample-MepuzzExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

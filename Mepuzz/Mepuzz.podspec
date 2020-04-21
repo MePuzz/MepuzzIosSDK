@@ -1,16 +1,16 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "Mepuzz"
-  spec.version      = "0.0.1"
-  spec.summary      = "An implement Cycle.js"
-  spec.description  = "An implement Cycle.js with Swift, RxSwif, Stylist"
+  spec.version      = "1.0.0"
+  spec.summary      = "Mepuzz sdk for iOS"
+  spec.description  = "Mepuzz SDK for iOS platform"
 
-  spec.homepage     = "https://github.com/chuthin/CycleSwift"
+  spec.homepage     = "https://github.com/MePuzz/MepuzzIosSDK"
   spec.license      = "MIT"
-  spec.author             = { "Chu Thin" => "thincv@live.com" }
+  spec.author             = { "Mepuzz" => "hotro@mepuzz.com" }
   spec.platform     = :ios, "10.0"
 
-  spec.source       = { :git => "https://github.com/chuthin/CycleSwift.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/MePuzz/MepuzzIosSDK.git", :tag => "#{spec.version}" }
   spec.static_framework = true
   
   spec.source_files  = "Mepuzz/**/*.{swift}"

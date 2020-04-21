@@ -1,0 +1,36 @@
+{
+  "name": "Mepuzz",
+  "version": "0.0.1",
+  "summary": "An implement Cycle.js",
+  "description": "An implement Cycle.js with Swift, RxSwif, Stylist",
+  "homepage": "https://github.com/chuthin/CycleSwift",
+  "license": "MIT",
+  "authors": {
+    "Chu Thin": "thincv@live.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/chuthin/CycleSwift.git",
+    "tag": "0.0.1"
+  },
+  "static_framework": true,
+  "source_files": "Mepuzz/**/*.{swift}",
+  "frameworks": "SafariServices",
+  "ios": {
+    "dependencies": {
+      "Firebase": [
+
+      ],
+      "FirebaseCore": [
+
+      ],
+      "FirebaseMessaging": [
+
+      ]
+    }
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
