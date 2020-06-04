@@ -121,6 +121,7 @@ fileprivate func sendPushNotification(to token: String, subId:String = "") {
                                            "device_os" : UIDevice.current.systemVersion,
                                            "operating_system" : "IOS",
                                            "operating_system_version" : "",
+                                           "channel" : "app_ios",
                                            "device_platform" : "Mobile",
                                            "device_model" : "",
                                            "ip" :"",
